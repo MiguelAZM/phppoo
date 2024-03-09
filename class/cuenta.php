@@ -5,10 +5,12 @@ class Cuenta
     private $nrocuenta; private 
     $tipointeres; 
     private $saldo;
-    public function__contruct ($nombre, $nrocuenta,$saldo)
+    public function __construct($nombre, $nrocuenta,$saldo,$tipointeres)
     {
+        
+    
         $this-> nombre = $nombre;
-        $this->cuenta= $nrocuenta;
+        $this-> nrocuenta= $nrocuenta;
         $this -> tipointeres= $tipointeres;
         $this-> saldo =$saldo;
     }
