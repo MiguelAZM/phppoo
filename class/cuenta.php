@@ -2,8 +2,8 @@
 class Cuenta
 {
     private $nombre;
-    private $nrocuenta; private 
-    $tipointeres; 
+    private $nrocuenta; 
+    private $tipointeres; 
     private $saldo;
     public function __construct($nombre, $nrocuenta,$saldo,$tipointeres)
     {
