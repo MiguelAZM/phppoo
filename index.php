@@ -1,3 +1,9 @@
 <?php
 include_once './class/cuenta.php';
-$cuenta  = new Cuenta("pepito rene", "AAF002", "0225",0);
+
+$mauro  = new Cuenta("pepito rene", "AAF002", 0.12,0);
+$mauro-> descipcion();
+$mauro -> setSaldo(5000000);
+$mauro-> ingreso(1000000);
+echo"nuebo SALDO ".$mauro -> getSaldo() ;
+
